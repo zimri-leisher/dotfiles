@@ -1,0 +1,6 @@
+# sets the terminal title to Terminal when present in a prompt
+SET_TITLE='\[\e]2;Terminal\a\]'
+
+PS0="$SET_TITLE\[\e[0m\]"
+PS1="\[\e[37m\]\w$ \[\e[33m\]"
+PS2="\[\e[37m\]> \[\e[33m\]"
